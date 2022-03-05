@@ -143,6 +143,13 @@ if(NOT SKIP_INSTALL_ALL)
 				DESTINATION
 					${CMAKE_INSTALL_PREFIX}/include/SpoutDX
 			)
+
+			install(
+				FILES
+					SPOUTSDK/SpoutDirectX/SpoutDX/SpoutDX12/SpoutDX12.h
+				DESTINATION
+					${CMAKE_INSTALL_PREFIX}/include/SpoutDX/SpoutDX12
+			)
 		endif()	
 
 		if(SPOUT_BUILD_LIBRARY)

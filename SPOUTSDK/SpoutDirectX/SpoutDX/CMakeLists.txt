@@ -10,6 +10,8 @@
 add_library(SpoutDX SHARED 
   SpoutDX.h
   SpoutDX.cpp
+  SpoutDX12/SpoutDX12.cpp
+  SpoutDX12/SpoutDX12.h
 )
 
 target_link_libraries(SpoutDX
