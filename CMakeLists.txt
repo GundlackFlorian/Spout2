@@ -141,14 +141,14 @@ if(NOT SKIP_INSTALL_ALL)
 				FILES
 					SPOUTSDK/SpoutDirectX/SpoutDX/SpoutDX.h
 				DESTINATION
-					${CMAKE_INSTALL_PREFIX}/include/SpoutDX
+					${CMAKE_INSTALL_PREFIX}/include/SpoutDirectX/SpoutDX
 			)
 
 			install(
 				FILES
 					SPOUTSDK/SpoutDirectX/SpoutDX/SpoutDX12/SpoutDX12.h
 				DESTINATION
-					${CMAKE_INSTALL_PREFIX}/include/SpoutDX/SpoutDX12
+					${CMAKE_INSTALL_PREFIX}/include/SpoutDirectX/SpoutDX/SpoutDX12
 			)
 		endif()	
 
