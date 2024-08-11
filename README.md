@@ -24,6 +24,7 @@ Or make a donation :\
 
 
 
-
-
+# DX12 | UE
+- There is a DX12 branch that includes the changes to compile with DX12
+- Disable CMT to compile ingame
 
