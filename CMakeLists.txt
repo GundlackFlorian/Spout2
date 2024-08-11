@@ -164,7 +164,14 @@ if(NOT SKIP_INSTALL_ALL)
 				SPOUTSDK/SpoutGL/SpoutSharedMemory.h
 				SPOUTSDK/SpoutGL/SpoutUtils.h
 				DESTINATION
-					${CMAKE_INSTALL_PREFIX}/include/SpoutDX
+					${CMAKE_INSTALL_PREFIX}/include/SpoutDirectX/SpoutDX
+			)
+
+			install(
+				FILES
+					SPOUTSDK/SpoutDirectX/SpoutDX/SpoutDX12/SpoutDX12.h
+				DESTINATION
+					${CMAKE_INSTALL_PREFIX}/include/SpoutDirectX/SpoutDX/SpoutDX12
 			)
 		endif()	
 
